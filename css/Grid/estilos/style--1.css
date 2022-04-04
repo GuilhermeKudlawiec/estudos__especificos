@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(200, 180, 180);
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.conteiner--flex {
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner--grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.imgs--cartas > img {
+    height: 100%;
+    width: 100%;
+}

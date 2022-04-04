@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container-pai {
+    align-items: center;
+    background: #EDE4DA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-filho {
+    background: #A19B94;
+    border: 4px solid #615D59;
+    margin: 20px;
+    width: 200px;
+}
+
+.num1 {
+    min-height: 100px;
+}
+
+.num2 {
+    min-height: 200px;
+}
+
+.num3 {
+    min-height: 300px;
+}
