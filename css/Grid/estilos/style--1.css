@@ -12,16 +12,12 @@ h1 {
     margin: 50px 0px;
 }
 
-.conteiner--flex {
-    display: flex;
-    justify-content: center;
-}
-
 #conteiner--grid {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: auto auto;
     gap: 20px;
+    justify-content: center;
 }
 
 .imgs--cartas > img {
